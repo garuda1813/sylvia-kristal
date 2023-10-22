@@ -34,7 +34,20 @@ header {
     height: auto;
 }
 
-td {
-    border: 1px solid black;
+table {
+    margin: 0 auto;
+    border-spacing: 20px;
     text-align: center;
+}
+
+td {
+    background-color:cornsilk;
+    padding: 4px;
+    border: 4px ridge;
+    border-color: bisque;
+}
+
+td img {
+    width: auto;
+    height: 300px;
 }
