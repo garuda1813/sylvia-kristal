@@ -1,7 +1,12 @@
+html {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Georgia, serif;
     font-size: 16px;
     width: 600px;
+    margin: 0 auto;
 }
 
 header {
@@ -21,6 +26,12 @@ header {
 
 .picture {
     text-align: center;
+}
+
+.picture img {
+    object-fit: fill;
+    width: 100%;
+    height: auto;
 }
 
 td {
